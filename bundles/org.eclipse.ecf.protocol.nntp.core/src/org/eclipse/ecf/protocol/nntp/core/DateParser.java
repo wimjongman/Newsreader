@@ -38,6 +38,7 @@ public class DateParser {
 	// the mask
 	// so we have to check the most complete format first, then it fails with
 	// exception
+	// exception
 	private static final String[] RFC822_MASKS = { "EEE, dd MMM yy HH:mm:ss z",
 		"EEE, dd MMM yy HH:mm:ss z (Z)",
 		

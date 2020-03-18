@@ -52,6 +52,7 @@ public class ArticleFactory {
 			article.setHeaderAttributeValue(headers[ix - 1], values[ix]);
 		}
 
+		article.getArticleNumber();
 		return article;
 
 	}
